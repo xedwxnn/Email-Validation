@@ -12,10 +12,11 @@
 <body>
     <div id="container">
         <div id="boxContainer">
-            <input type="email" placeholder="Email@example.com">
+            <input id="inputEmail" type="email" placeholder="email@example.com" autocomplete="off">
             <button id="sendBtn">Send</button>
-            <p id="WrongEmail" class="active"><i class='bx bx-error-circle'></i>Ingrese un email válido</p>
         </div>
+
+        <p id="wrongEmail" class="wrongEmail"><i class='bx bx-error-circle active'></i>Ingrese un email válido</p>
     </div>
 </body>
 </html>
