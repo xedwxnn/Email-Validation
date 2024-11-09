@@ -16,7 +16,9 @@ body {
 }
 
 #box-container {
-    width: 60%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
 }
 
 input {
@@ -68,6 +70,15 @@ button:hover {
     transform: scale(1.035);
 }
 
-i {
+.bx-error-circle {
     margin-right: 2px;
+}
+
+#boxContainer i {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
